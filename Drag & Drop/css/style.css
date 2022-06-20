@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#first {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  background-color: red;
+}
+
+#DragArea {
+  border: 1px solid purple;
+  margin: 30px 0;
+  padding: 30px 0;
+  -webkit-box-shadow: inset 0px 1px 7px purple;
+          box-shadow: inset 0px 1px 7px purple;
+}
+
+#DragArea .drag-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#DragArea .drag-content .box {
+  cursor: move;
+  width: 22%;
+  background-color: purple;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#DropArea {
+  width: 100%;
+  height: 200px;
+  border: 5px double purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#DropArea .box {
+  cursor: move;
+  width: 22%;
+  background-color: purple;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
